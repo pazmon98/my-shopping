@@ -1,0 +1,54 @@
+/* Услуби умумии карточка */
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.price {
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2rem;
+}
+/* Қуттии тугмаҳо */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+/* Тугмаи сабад */
+.buy-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Тугмаи Alif */
+.alif-btn {
+    background-color: #ffcc00; /* Ранги зард мисли Alif */
+    color: #000;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #e6b800;
+}
+.alif-btn:hover {
+    background-color: #e6b800;
+}
+.cart-icon {
+    background: #ff5722;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
